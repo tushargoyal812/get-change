@@ -1,0 +1,53 @@
+.App {
+  font-family: cursive;
+  text-align: center;
+  background-color: #efbbcc;
+  width: 100%;
+  max-width: 500px;
+  min-height: 200px;
+  margin: auto;
+  padding: 2rem 1rem;
+  color: white;
+}
+
+input {
+  width: 70%;
+  height: 2rem;
+}
+
+.btn {
+  margin: 0.5rem;
+  height: 2rem;
+  background-color: #b9d9eb;
+  border: none;
+  font-size: 1rem;
+  border-radius: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.no-of-notes {
+  display: flex;
+  justify-content: center;
+  word-wrap: break-word;
+}
+
+body {
+  margin: 0px;
+}
+
+.change {
+  border: 1px solid #efbbcc;
+  width: 5rem;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: black;
+}
+.notes {
+  border: 1px solid #efbbcc;
+  width: 5rem;
+  color: black;
+  background-color: #b9d9eb;
+}
