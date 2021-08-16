@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./styles.css";
-
 export default function App() {
   const [cash, setCash] = useState([0, 0, 0, 0, 0, 0, 0, 0, 0]);
   const [Input, setInput] = useState();
@@ -122,6 +121,7 @@ export default function App() {
           ""
         )}
       </div>
+      
     </div>
   );
 }
